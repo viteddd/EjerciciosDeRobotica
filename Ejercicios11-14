@@ -1,0 +1,18 @@
+#Ejercicio 11
+Numero = int(input("Ingrese un numero: "))
+if Numero % 2 == 0:
+    print("El numero es par")
+else:
+    print("El numero es impar")
+
+#Ejercicio 14
+Numero1 = int(input("Ingresa el primer numero: "))
+Numero2 = int(input("Ingresa el segundo numero: "))
+Numero3 = int(input("Ingresa el tercer numero: "))
+if Numero1 > Numero2 and Numero1 > Numero3:
+    Numero = Numero1
+elif Numero2 > Numero1 and Numero2 > Numero3:
+    Numero = Numero2
+else:
+    Numero = Numero3
+print("El numero mayor es:", Numero)
