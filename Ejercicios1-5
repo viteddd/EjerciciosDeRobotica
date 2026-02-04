@@ -1,0 +1,29 @@
+# Ejercicio 1
+Numero1 = float(input("Introduce el primer numero para sumar:"))
+Numero2 = float(input("Introduce el segundo numero para sumar:"))
+resultado = (Numero1 + Numero2)
+print("El resultado de la suma es:", resultado)
+
+# Ejercicio 2
+Radio = float(input("Intruduce el numero:"))
+pi = float(3.14)
+Zona = (Radio * pi)
+print("El radio es:", Zona)
+
+# Ejercicio 3
+grados = float(input("Introduzca la temperatura:"))
+resultado = (grados * 9)/5+32
+print("La tempreatura en grados farenhait es:", resultado)
+
+# Ejercicio 4
+currentNum = float(input("Introduzca el numero deseado:")) # Yo suelo poner esta variable como currentNum porque hago code en C# y es menos lioso asi
+doble = (currentNum * 2)
+triple = (currentNum * 3)
+print("Doble:", doble, "Triple:", triple)
+
+# Ejercicio 5
+reglatresNum1 = float(input("Introduce el primer numero para realizar la regla de tres:"))
+reglatresNum2 = float(input("Introduce el segundo numero para realizar la regla de tres:"))
+reglatresNum3 = float(input("Introduce el tercer numero para realizar la regla de tres:"))
+numResultado = (reglatresNum1 * reglatresNum2/reglatresNum3)
+print("El resultado de la regla de tres es:", numResultado)
